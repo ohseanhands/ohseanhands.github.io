@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+}
+
+.main-img-container object {
+    position: absolute;
+    right: 60%;
+}
+
+.main-img-container .ground {
+    position: absolute;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 134px;
+    width: 100%;
+    margin-top: -25px;
+}
