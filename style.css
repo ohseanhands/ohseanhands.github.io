@@ -1,17 +1,103 @@
 body {
     margin: 0;
+    background: #fc8;
 }
 
-.main-img-container object {
-    position: absolute;
-    right: 60%;
+.big-spacer {
+    padding: 0 45px 0 0;
 }
 
-.main-img-container .ground {
+.top-menu {
     position: absolute;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    height: 134px;
-    width: 100%;
-    margin-top: -25px;
+    right: 0;
+    padding: 30px;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+}
+
+.top-menu a {
+    font-family: 'Inconsolata', monospace;
+    font-size: 15pt;
+}
+
+.top-bar, .top-bar a {
+    margin: 0;
+    background: #153;
+    color: #fc8;
+}
+
+.squigle {
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: 60px auto;
+    display: block;
+}
+
+.top-bar .squigle {
+    height: 35px;
+}
+
+.top-bar .my-name {
+    font-family: 'Inconsolata', monospace;
+    margin-top: 0;
+    padding: 100px 30px;
+    font-size: 100pt;
+}
+
+.top-bar .my-name::before {
+    content: '{';
+}
+.top-bar .my-name::after {
+    content: '}';
+}
+
+.top-bar .descriptors {
+    font: 400 37pt 'Great Vibes', Helvetica, sans-serif;
+    text-align: center;
+}
+
+.top-bar .want-more {
+    font-family: 'Inconsolata', monospace;
+    padding: 20px;
+    margin: 0;
+}
+
+.content {
+    background: #fc8;
+    color: #153;
+    max-width: 800px;
+    padding: 50px;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+.content section h2 {
+    margin-left: -25px;
+    font-size: 22pt;
+    border-bottom: 2px solid;
+}
+
+.content section h3 {
+    margin-left: -13px;
+}
+
+.content section {
+    margin-bottom: 40px;
+}
+
+section div.project {
+    margin-bottom: 30px;
+}
+
+section div.project .project-img {
+    float: left;
+    margin: 10px;
+}
+
+section div.project:nth-child(2n+1) .project-img {
+    float: right;
 }

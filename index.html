@@ -8,7 +8,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Sean Gref</title>
         <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1"><link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
@@ -16,11 +17,65 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <div class="top-bar">
+            <nav class="top-menu">
+                <a href="#about">About Me</a>
+                <span class="link-separator">&bull;</span>
+                <a href="#projects">Projects</a>
+                <span class="link-separator">&bull;</span>
+                <a href="#contact">Contact</a>
+            </nav>
             <h1 class="my-name">Sean Gref</h1>
-            <div class="main-img-container">
-                <object id="main-svg" width="1000" height="auto" type="image/svg+xml" data="arrow-clean.svg"></object>
-            </div>
-            <div class="ground"></div>
+            <img class="squigle" src="squigle-clean.svg" alt="squigle image" height="35px" />
+            <p class="descriptors">Programmer.<span class="big-spacer"></span>Designer.<span class="big-spacer"></span>Thing&nbsp;builder.</p>
+            <img class="squigle" src="squigle-clean.svg" alt="squigle image" height="35px" />
+            <p class="want-more">Interested? Want more info? <a href="#contact">Contact me!</a></p>
+        </div>
+        <div class="top-to-content-separator"></div>
+        <div class="content">
+            <section>
+                <a name="about"></a>
+                <h2>About Me</h2>
+                <p>
+                    I am a soon-to-be-graduating student of University of California, San Diego. I work part-time (20-40 hours per week) at a software company in Mira Mesa where I've been diving into projects head first for 2 years now. In my free time, I enjoy building small, fun projects, my favorite being <a href="http://iama.bike">iama.bike</a>
+                </p>
+            </section>
+            <section>
+                <a name="projects"></a>
+                <h2>Projects</h2>
+                <div class="project">
+                    <h3><a href="http://iama.bike">iama.bike</a></h3>
+                    <img class="project-img" src="iama-bike.png" width="300"/>
+                    <p>
+                        <b>Description:</b> I wrote this project in an afternoon to practice Object Oriented JavaScript. I believe I completed that goal very well because the code is very modular and reusable. I implemented a custom renderer and animation loop in vanilla JavaScript.
+                        <br>
+                        <b>Challenges:</b> Since I wanted to implement this with pure, vanilla JavaScript, drawing the different parts of the scene was difficult. Finding all the curves/points by hand was a tedious process, which in hindsight could have been sped up by using svg files.
+                    </p>
+                </div>
+                <div class="project">
+                    <h3><a href="https://medium.com/cogs-187a-summer-2017/pressing-the-big-red-button-5d7ede299be1">EZ Care</a></h3>
+                    <img class="project-img" src="EZCare-logo.png" width="300"/>
+                    <p>
+                        <b>Description:</b> For the course COGS 187a at UCSD, groups of students had to brainstorm, design, and create a prototype for a new app or website. My group, EZ Care (previously EZ Mode and/or EZ Life), created an app with a smart watch geared towards elderly people. We worked together each week to complete deliverables including meeting minutes, a weekly blog, and design sketches to name a few.
+                        <br>
+                        <b>Challenges:</b> Working in a team of 7 people proved challenging at times. Not everyone had the same ideas about what the app/smartwatch should be, however we were able to work together to create an even better product concept.
+                    </p>
+                </div>
+            </section>
+
+            <section>
+                <a name="contact"></a>
+                <h2>Contact Me</h2>
+                <p>
+                    <b>Resume:</b> <a href="sean-gref-resume.pdf">pdf</a> or <a href="sean-gref-resume.tex">Latex</a>
+                </p>
+                <p>
+                    <b>Email:</b> iam[at]seangref(dot)com</a>
+                </p>
+                <p>
+                    <b>GitHub:</b> <a href="https://github.com/ohseanhands">https://github.com/ohseanhands</a>
+                </p>
+                <p
+            </section>
         </div>
         <script src="index.js"></script>
     </body>
