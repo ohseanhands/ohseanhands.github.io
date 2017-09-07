@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: #fc8;
+    background: #fff;
 }
 
 .big-spacer {
@@ -22,8 +22,8 @@ body {
 
 .top-bar, .top-bar a {
     margin: 0;
-    background: #153;
-    color: #fc8;
+    background: #33a;
+    color: #fff;
 }
 
 .squigle {
@@ -64,8 +64,8 @@ body {
 }
 
 .content {
-    background: #fc8;
-    color: #153;
+    background: #fff;
+    color: #33a;
     max-width: 800px;
     padding: 50px;
     position: relative;
