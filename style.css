@@ -91,6 +91,7 @@ body {
 
 section div.project {
     margin-bottom: 30px;
+    clear: both;
 }
 
 section div.project .project-img {
